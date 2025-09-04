@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="/newui-extensions/login/style.css" />
+</head>
+<body>
+  <main class="login-wrapper">
+    <section class="glass infobox loginbox">
+      <!-- Contributor Avatar -->
+      <img src="/newui-extensions/login/default.png" alt="Profile Picture" class="profile-picture" />
+
+      <!-- MV Caption -->
+      <h2>Welcome, Contributor</h2>
+      <p class="mv-caption">“It all starts with your account. Login here”</p>
+
+      <!-- Login Form -->
+      <form class="login-form" action="/auth/login" method="POST">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit" class="login-button">Login</button>
+      </form>
+
+      <!-- Footer Ritual -->
+      <footer class="login-footer">
+        <a href="/auth/forgot-passwd">Forgot password?</a>
+        <a href="/auth/forgot-username">Forgot username?</a>
+        <span>Based on the NewUI Login Extension</span>
+      </footer>
+    </section>
+  </main>
+  <script src="/newui-extensions/login/required.js"></script>
+</body>
+</html>
