@@ -5,8 +5,8 @@
 - NewuI v4.1.3 Base (with required.js file)
 
 ### Development Status
-This project is currently: '''In development'''
-It's scheduled to get finished on: September 21, 2025
+This project is currently: **Completed**
+You can now download this project and the UI should work
 
 ### About this project
 the NewUI Login Extension is an extension to add account support to your site, it provides a CSS add-on with login elements, and has a HTML template, and profile picture already ready. Just take your CSS, HTML, and add your own backend.
